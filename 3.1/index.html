@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <table style="border: 1px solid white;" id="tab1">
+        <thead>
+            <tr>
+                <td>
+                    <b>USER ID</b>
+                    <button id="sortAskID" onclick="sortAskID()">▲</button>
+                    <button id="sortDeskID" onclick="sortDeskID()">▼</button>
+                </td>
+                <td>
+                    <b>USER NAME</b>
+                    <button id="sortAskName" onclick="sortAskName()">▲</button>
+                    <button id="sortDeskName" onclick="sortDeskName()">▼</button>
+                </td>
+            </tr>
+        </thead>
+        <tbody id="tab_body"></tbody>
+    </table>
+
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
